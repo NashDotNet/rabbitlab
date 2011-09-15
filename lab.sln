@@ -13,6 +13,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "worker", "src\worker\worker
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "distributor", "src\distributor\distributor.csproj", "{71487027-0B33-408C-BDC4-B8D6404DA5D7}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{832F3B57-A679-4976-B800-07636A1F8B48}"
+	ProjectSection(SolutionItems) = preProject
+		distributor-source.txt = distributor-source.txt
+		pub-source.txt = pub-source.txt
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
