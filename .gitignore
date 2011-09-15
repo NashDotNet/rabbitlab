@@ -1,0 +1,10 @@
+_ReSharper.*
+Debug*
+Release*
+bin*
+obj*
+*.cache
+*.user
+*.suo
+Minions*
+*~HEAD

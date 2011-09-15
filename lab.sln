@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "pubsub", "pubsub", "{907948C9-4CAD-4E51-86BC-E082013844F7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "competing", "competing", "{32E1D39E-98A6-46D5-B2F0-94B2DA0BC4FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "publisher", "src\publisher\publisher.csproj", "{1B910912-13AF-40DD-B387-2176F8D69E5E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "subscriber", "src\subscriber\subscriber.csproj", "{484D432B-2629-46FD-9C1D-2ADCF7434CCF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "worker", "src\worker\worker.csproj", "{50D5C849-8AC5-460A-99BB-995E0A608379}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "distributor", "src\distributor\distributor.csproj", "{71487027-0B33-408C-BDC4-B8D6404DA5D7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1B910912-13AF-40DD-B387-2176F8D69E5E}.Debug|x86.ActiveCfg = Debug|x86
+		{1B910912-13AF-40DD-B387-2176F8D69E5E}.Debug|x86.Build.0 = Debug|x86
+		{1B910912-13AF-40DD-B387-2176F8D69E5E}.Release|x86.ActiveCfg = Release|x86
+		{1B910912-13AF-40DD-B387-2176F8D69E5E}.Release|x86.Build.0 = Release|x86
+		{484D432B-2629-46FD-9C1D-2ADCF7434CCF}.Debug|x86.ActiveCfg = Debug|x86
+		{484D432B-2629-46FD-9C1D-2ADCF7434CCF}.Debug|x86.Build.0 = Debug|x86
+		{484D432B-2629-46FD-9C1D-2ADCF7434CCF}.Release|x86.ActiveCfg = Release|x86
+		{484D432B-2629-46FD-9C1D-2ADCF7434CCF}.Release|x86.Build.0 = Release|x86
+		{50D5C849-8AC5-460A-99BB-995E0A608379}.Debug|x86.ActiveCfg = Debug|x86
+		{50D5C849-8AC5-460A-99BB-995E0A608379}.Debug|x86.Build.0 = Debug|x86
+		{50D5C849-8AC5-460A-99BB-995E0A608379}.Release|x86.ActiveCfg = Release|x86
+		{50D5C849-8AC5-460A-99BB-995E0A608379}.Release|x86.Build.0 = Release|x86
+		{71487027-0B33-408C-BDC4-B8D6404DA5D7}.Debug|x86.ActiveCfg = Debug|x86
+		{71487027-0B33-408C-BDC4-B8D6404DA5D7}.Debug|x86.Build.0 = Debug|x86
+		{71487027-0B33-408C-BDC4-B8D6404DA5D7}.Release|x86.ActiveCfg = Release|x86
+		{71487027-0B33-408C-BDC4-B8D6404DA5D7}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1B910912-13AF-40DD-B387-2176F8D69E5E} = {907948C9-4CAD-4E51-86BC-E082013844F7}
+		{484D432B-2629-46FD-9C1D-2ADCF7434CCF} = {907948C9-4CAD-4E51-86BC-E082013844F7}
+		{50D5C849-8AC5-460A-99BB-995E0A608379} = {32E1D39E-98A6-46D5-B2F0-94B2DA0BC4FE}
+		{71487027-0B33-408C-BDC4-B8D6404DA5D7} = {32E1D39E-98A6-46D5-B2F0-94B2DA0BC4FE}
+	EndGlobalSection
+EndGlobal
